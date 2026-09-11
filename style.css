@@ -173,7 +173,7 @@ nav {
   z-index: 1;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 3.5rem 2rem 2.5rem;
+  padding: 2.5rem 2rem 1.5rem;
   text-align: center;
 }
 .hero-eyebrow {
@@ -182,14 +182,14 @@ nav {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
-.hero h1 { color: var(--white); margin-bottom: 1.5rem; }
+.hero h1 { color: var(--white); margin-bottom: 1rem; }
 .hero-sub {
   color: rgba(255,255,255,0.8);
   font-size: 1.15rem;
   line-height: 1.8;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   max-width: 560px;
   margin-left: auto;
   margin-right: auto;
@@ -325,7 +325,7 @@ section { padding: 3.5rem 0; }
   font-size: 0.95rem;
   color: var(--text);
 }
-.product-features svg { flex-shrink: 0; }
+.product-features svg { flex-shrink: 0; width: 20px; height: 20px; }
 .product-mobile { font-size: 0.85rem; color: var(--text-light); }
 
 .phone-mockup {
